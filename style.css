@@ -676,8 +676,8 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 16px;
+p, cite { /*Ajout de "cite"*/
+    font-size: 16px; /* à la place de 11px */
 }
 
 .tight-width-whitespace {
@@ -737,6 +737,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 18px;
 }
 
 .portfolio-thumb {
@@ -755,6 +756,10 @@ h4 {
 .black-background {
     background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
+}
+
+.black-background-bloc-5 { /*ajout d'un container pour régler le contrast*/
+    background-color: rgba(165, 147, 99, 0.7);
 }
 
 .bold-link {
@@ -779,7 +784,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background:rgba(165, 147, 99, 0.7); /*initialement #F3976C*/
     color: #FFFFFF!important;
 }
 
