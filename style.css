@@ -676,8 +676,13 @@ a {
     margin: auto auto auto auto;
 }
 
-p, cite { /*Ajout de "cite"*/
+p, 
+cite { /*Ajout de "cite"*/
     font-size: 16px; /* à la place de 11px */
+}
+
+cite {
+    color: #575757;
 }
 
 .tight-width-whitespace {
