@@ -538,7 +538,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Arial, Helvetica, sans-serif;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -569,6 +569,7 @@ a[data-lightbox]:hover img {
     width: 90%;
     max-width: 900px;
     margin: 0 auto 0;
+    text-align: center;
 }
 
 #lightbox-modal .modal-dialog img {
@@ -765,6 +766,7 @@ h4 {
 
 .black-background-bloc-5 { /*ajout d'un container pour régler le contrast*/
     background-color: rgba(165, 147, 99, 0.7);
+    
 }
 
 .bold-link {
