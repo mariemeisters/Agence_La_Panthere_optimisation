@@ -743,7 +743,6 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
-    font-size: 18px;
 }
 
 .portfolio-thumb {
@@ -768,6 +767,10 @@ h4 {
     background-color: rgba(165, 147, 99, 0.7);
 }
 
+.background-blue {
+    background-color: #364577
+}
+
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
@@ -790,8 +793,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background:rgba(165, 147, 99, 0.7); /*initialement #F3976C*/
-
+    background:#364577;
     color: #FFFFFF!important;
 }
 
