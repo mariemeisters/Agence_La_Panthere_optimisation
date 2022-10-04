@@ -654,7 +654,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -700,7 +700,7 @@ cite {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000000!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -745,6 +745,10 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+}
+
+.black {
+    color: black;
 }
 
 .portfolio-thumb {
@@ -795,8 +799,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background:#364577;
-    color: #FFFFFF!important;
+    background:#F3976C;
 }
 
 .btn-atomic-tangerine:hover {
